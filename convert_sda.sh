@@ -10,7 +10,7 @@ echo "/ip address add address=$ADDRESS interface=[/interface ethernet find where
  " > /mnt/rw/autorun.scr && \
 umount /mnt && \
 echo u > /proc/sysrq-trigger && \
-dd if=chr.img bs=38M of=/dev/sda && \
+dd if=chr.img bs=1M of=/dev/sda && \
 echo "sync disk" && \
 echo s > /proc/sysrq-trigger && \
 echo "Sleep 5 seconds" && \

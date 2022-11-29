@@ -25,7 +25,7 @@ For **VDA**:
 bash <(curl -Ls https://raw.githubusercontent.com/ami-karimi/centos_convert_mikrotik/master/convert_vda.sh)
 
 
-#after Instalation
+# after Instalation
 
 **Install WinBox Or Use Your Ip Address For Login To Mikrotik**
 
